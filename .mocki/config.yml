@@ -1,0 +1,1247 @@
+name: mocki
+  port: 3000
+  endpoints:
+    - path: /categories
+      method: get
+      responses:
+        - statusCode: 200
+          body:
+            categories: '[
+              {
+                "id": 24,
+                "name": "Домашний мастер",
+                "slug": "domashniy-master",
+                "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.jpg",
+                "avgPrice": null,
+                "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                "ordersCount": 8,
+                "subCategories": [
+                  {
+                    "id": 35,
+                    "name": "Сантехник",
+                    "slug": "santehnik",
+                    "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                    "avgPrice": null,
+                    "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                    "ordersCount": 2,
+                    "subCategories": [
+                      {
+                        "id": 1121,
+                        "name": "Сантехнические работы",
+                        "slug": "santehnicheskie-raboty",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1591615672525-1585469276226categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/svg/1591615757645-noimageavailable.svg",
+                        "ordersCount": 1,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: монтаж канализации в квартире",
+                        "orderDescriptionPlaceholder": "Стоит указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: необходимо провести монтаж канализации на кухню и в ванную комнату. Пластиковые трубы, автономный тип водоснабжения. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 1128,
+                        "name": "Реставрация ванн",
+                        "slug": "restavraciya-vann",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 1000,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 1,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: отреставрировать эмаль ванной ",
+                        "orderDescriptionPlaceholder": "Стоит указать: материал ванной, характеристику повреждений, метод реставрации. Пример: чугунная ванна, на краю имеется один скол эмали и несколько мелких царапин, необходима реставрация"
+                      },
+                      {
+                        "id": 205,
+                        "name": "Установка ванны",
+                        "slug": "ustanovka-i-remont-vannoj",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 600,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить ванну",
+                        "orderDescriptionPlaceholder": "Стоит указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: установить новую ванну, демонтаж старой. Пластиковые трубы, автономный тип водоснабжения. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 206,
+                        "name": "Установка и ремонт унитазов",
+                        "slug": "ustanovka-i-remont-unitaza",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: ремонт унитаза",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: установить новый унитаз. Заменить трубы, демонтаж старых. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 207,
+                        "name": "Установка и ремонт душевой кабины",
+                        "slug": "ustanovka-i-remont-dushevoj-kabiny",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 900,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить душевую кабину",
+                        "orderDescriptionPlaceholder": "Стоит указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: установить новую душевую кабину. Демонтаж старой душевой. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 208,
+                        "name": "Установка и ремонт крана",
+                        "slug": "ustanovka-i-remont-krana",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 300,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: починить кран",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, полипропилен и др.) Пример: сломался кран. В кране на кухне появилась трещина. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 209,
+                        "name": "Установка и ремонт раковины",
+                        "slug": "ustanovka-i-remont-rakoviny",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: установить раковину",
+                        "orderDescriptionPlaceholder": "Стоит указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: демонтировать старую раковину и установить новую, металлические трубы, бетонные стены. Крепежи в наличие. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 210,
+                        "name": "Врезка и установка мойки",
+                        "slug": "ustanovka-i-remont-kuhonnoj-mojki",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 600,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить мойку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: установить мойку на кухню. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 818,
+                        "name": "Другие услуги сантехника",
+                        "slug": "drugie-uslugi-santehnika",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 350,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: Заменить вентиль на стояке",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: Заменить вентиль на стояке, пластиковые трубы. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 211,
+                        "name": "Установка и ремонт смесителя",
+                        "slug": "ustanovka-i-remont-smesitelya",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 250,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить смеситель",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: установить смеситель на кухне. Все необходимые запчасти в наличии. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 212,
+                        "name": "Установка и замена фильтров для воды",
+                        "slug": "ustanovka-i-zamena-filtrov-dlya-vody",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 250,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: подключить фильтр к крану",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: подключить фильтр для воды под раковину на кухню. Пластиковые трубы. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 213,
+                        "name": "Установка и замена счетчиков воды",
+                        "slug": "ustanovka-i-zamena-schetchikov-vody",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить счетчик на воду",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, полипропилен и др.) Пример: установить счетчики на холодную и горячую воду, пластиковые трубы. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 214,
+                        "name": "Установка и замена радиаторов",
+                        "slug": "ustanovka-i-zamena-radiatorov",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 600,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: установить батарею ",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал (метал, пластик, др.) Пример: установить металлическую батарею отопления на кухне. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 215,
+                        "name": "Установка и замена полотенцесушителя",
+                        "slug": "ustanovka-i-zamena-polotencesushitelya",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 800,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: установить полотенцесушитель",
+                        "orderDescriptionPlaceholder": "Необходимо указать: место подключения, материал стен и модель полотенцесушителя. Например: установить электрический полотенцесушитель, Gorenje. В ванной стены из гипсокартона. Необходим инструмент мастера. "
+                      },
+                      {
+                        "id": 219,
+                        "name": "Монтаж и ремонт водопровода",
+                        "slug": "montazh-i-remont-vodoprovoda",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 1000,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: провести водопровод",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, полипропилен и др.) Пример: выполнить монтаж труб систем водопровода, пластиковые трубы в наличие. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 891,
+                        "name": "Установка и замена сифона",
+                        "slug": "ustanovka-i-remont-sifona",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить сифон",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное, автономное), месторасположение сифона. Пример: установить сифон под кухонную мойку. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 220,
+                        "name": "Монтаж отопления",
+                        "slug": "montazh-sistem-otopleniya",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 2000,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установка отопления ",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: установить в доме автономную систему отопления, пластиковые трубы. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 221,
+                        "name": "Монтаж канализации",
+                        "slug": "montazh-kanalizacii",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 0,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: монтаж канализации в квартире",
+                        "orderDescriptionPlaceholder": "Стоит указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: необходимо провести монтаж канализации на кухню и в ванную комнату. Пластиковые трубы, автономный тип водоснабжения. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 222,
+                        "name": "Устранение течи",
+                        "slug": "ustranenie-techi",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 300,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: протекает кран в ванной",
+                        "orderDescriptionPlaceholder": "Например: потекает кран в ванной комнате, проблема не критичная, но необходимо устранить. Пакля есть в наличии. Необходим свой инструмент. "
+                      },
+                      {
+                        "id": 223,
+                        "name": "Прочистка канализации",
+                        "slug": "prochistka-kanalizacii-i-ustranenie-zasorov",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 350,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 35,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: прочистить канализацию",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное) и материал труб (метал, пластик, др.) Пример: образовался засор в раковине на кухне. Нужно прочистить металлическую трубу. Необходим инструмент мастера."
+                      }
+                    ],
+                    "parentCategory": null,
+                    "parentCategoryId": 24,
+                    "sortingPositionIndex": null,
+                    "minutesToCancelAmount": null,
+                    "orderTitlePlaceholder": null,
+                    "orderDescriptionPlaceholder": null
+                  },
+                  {
+                    "id": 1203,
+                    "name": "Столяр",
+                    "slug": "uslugi-stolyara",
+                    "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1590592826530-1585469276226categorymaster.png",
+                    "avgPrice": 700,
+                    "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/svg/1590593032831-noimageavailable.svg",
+                    "ordersCount": 1,
+                    "subCategories": [
+
+                    ],
+                    "parentCategory": null,
+                    "parentCategoryId": 24,
+                    "sortingPositionIndex": null,
+                    "minutesToCancelAmount": null,
+                    "orderTitlePlaceholder": "Например: починить спинку кровати",
+                    "orderDescriptionPlaceholder": "Необходимо указать: тип и объем работ, требуются ли инструменты мастера. Пример: сломалась деревянная спинка кровати, необходимо оценить объем работ, починить. Инструментов нету."
+                  },
+                  {
+                    "id": 36,
+                    "name": "Электрик",
+                    "slug": "elektrik",
+                    "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                    "avgPrice": null,
+                    "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                    "ordersCount": 1,
+                    "subCategories": [
+                      {
+                        "id": 224,
+                        "name": "Монтаж и ремонт электропроводки",
+                        "slug": "montazh-i-zamena-elektroprovodki",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 6000,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: сделать электропроводку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: нужно ли штробление стен, нужна ли замена старой электрики, месторасположение и метраж проводки. Пример: сделать электропроводку 20 м, открытая проводка без штробления. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 225,
+                        "name": "Монтаж и сборка электрощита",
+                        "slug": "montazh-elektroshitka",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 310,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: монтаж электрощитка",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип щитка, месторасположение щитка. Пример: поставить внутренний электрощиток в коридор. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 226,
+                        "name": "Монтаж и замена выключателя",
+                        "slug": "ustanovka-i-zamena-vyklyuchatelya",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 180,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить выключатель",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип стены, месторасположение выключателя, кол-во, нужен ли демонтаж старой электрики. Пример: снять старые выключатели. Подсоединить 4 выключателя на кухне. Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 1122,
+                        "name": "Электромонтажные работы",
+                        "slug": "elektromontazhnye-raboty",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 500,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: сделать электропроводку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: нужно ли штробление стен, нужна ли замена старой электрики, месторасположение и метраж проводки. Пример: сделать электропроводку 20 м, открытая проводка без штробления. Необходим инструмент мастера."
+                      },
+                      {
+                        "id": 227,
+                        "name": "Установка и замена трансформатора",
+                        "slug": "ustanovka-i-zamena-transformatora",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 200,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить трансформатор",
+                        "orderDescriptionPlaceholder": "Необходимо указать: месторасположение трансформатора. Пример: установить трансформатор на кухне. Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 228,
+                        "name": "Установка и замена розеток",
+                        "slug": "ustanovka-i-zamena-rozetok",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 180,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: заменить старую розетку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: нужен ли демонтаж старой электроники, штробление стен и указать месторасположение розеток. Пример: заменить на кухне старые розетки на новые (в наличии).  Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 229,
+                        "name": "Установка и замена электросчётчика",
+                        "slug": "ustanovka-elektroschetchika",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 330,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установка электросчетчика",
+                        "orderDescriptionPlaceholder": "Необходимо указать: месторасположение счетчика, требуется ли демонтаж старой электрики и штробление стен. Пример: установить новый электросчетчик на кухне. Нужны инструменты мастера."
+                      },
+                      {
+                        "id": 230,
+                        "name": "Установка домофона",
+                        "slug": "ustanovka-domofona",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 1,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить видеодомофон",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип домофона, нужен ли демонтаж старой электроники, локация домофона. Пример: установить видеодомофон в квартиру, снять старый домофон. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 231,
+                        "name": "Установка УЗО и автоматов",
+                        "slug": "ustanovka-uzo",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: подключить УЗО",
+                        "orderDescriptionPlaceholder": "Необходимо указать: необходима ли замена старой электрики, требуется ли штробление или отделка поверхности, тип стены. Пример: подключить УЗО.Требуется штробление бетонной стены. Нужны приборы мастера"
+                      },
+                      {
+                        "id": 232,
+                        "name": "Установка звонка",
+                        "slug": "ustanovka-zvonka",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 250,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить дверной звонок",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип звонка, нужно ли штробление стен и демонтаж старой электроники. Пример: снять старый звонок, установить новый дверной замок, подтянуть розетку. Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 233,
+                        "name": "Установка и ремонт светильников",
+                        "slug": "ustanovka-i-remont-svetilnikov",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 250,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: заменить светильник в ванной",
+                        "orderDescriptionPlaceholder": "Необходимо указать: требуется ли демонтаж электрики, тип стен, месторасположение светильника. Пример: снять старый светильник в ванной и вмонтировать в бетонную стену. Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 234,
+                        "name": "Подключение стабилизатора напряжения",
+                        "slug": "ustanovka-stabilizatora-napryazheniya",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 500,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить реле напряжения",
+                        "orderDescriptionPlaceholder": "Необходимо указать: месторасположение реле напряжения. Например: установить реле напряжения на щиток. Купить и установить автомат. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 235,
+                        "name": "Подключение и ремонт люстры",
+                        "slug": "podklyuchenie-i-remont-lyustry",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 350,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: повесить люстру",
+                        "orderDescriptionPlaceholder": "Необходимо указать: необходима ли замена старой электрики, требуется ли штробление или отделка поверхности, тип стены. Пример: провести проводку и повесть люстру в комнате. Стены из гипсокартона. Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 236,
+                        "name": "Штробление стен",
+                        "slug": "shtroblenie-sten",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 0,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: штробление стен под проводку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: метраж стен, тип поверхности, требуется ли демонтаж стен. Пример: снять обои, проштробить бетонную стену и проложить кабель 25 м. Нужны инструменты мастера  "
+                      },
+                      {
+                        "id": 819,
+                        "name": "Другие услуги электрика",
+                        "slug": "drugie-uslugi-elektrika",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 310,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 36,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: Починить свет в вытяжке",
+                        "orderDescriptionPlaceholder": "Необходимо указать: нужна ли замена старой электрики, месторасположение лампочки, тип освещения. Пример: Заменить диодные лампочки (в наличии) в вытяжке. Необходимы инструменты мастера"
+                      }
+                    ],
+                    "parentCategory": null,
+                    "parentCategoryId": 24,
+                    "sortingPositionIndex": null,
+                    "minutesToCancelAmount": null,
+                    "orderTitlePlaceholder": null,
+                    "orderDescriptionPlaceholder": null
+                  },
+                  {
+                    "id": 1238,
+                    "name": "Слесарь",
+                    "slug": "uslugi-slesarya",
+                    "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                    "avgPrice": 2000,
+                    "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                    "ordersCount": 1,
+                    "subCategories": [
+
+                    ],
+                    "parentCategory": null,
+                    "parentCategoryId": 24,
+                    "sortingPositionIndex": null,
+                    "minutesToCancelAmount": null,
+                    "orderTitlePlaceholder": null,
+                    "orderDescriptionPlaceholder": null
+                  },
+                  {
+                    "id": 1193,
+                    "name": "Муж на час",
+                    "slug": "muzh-na-chas",
+                    "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                    "avgPrice": null,
+                    "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                    "ordersCount": 3,
+                    "subCategories": [
+                      {
+                        "id": 273,
+                        "name": "Установка замков",
+                        "slug": "ustanovka-zamkov",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 1,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: заменить замок",
+                        "orderDescriptionPlaceholder": "Необходимо указать: размер и вид дверей, тип петель, потребуется ли врезка замка, также модель замка. Пример: заменить замок в деревянной межкомнатной двери, размеры: 600*2000 мм, накладные петли, врезка не требуется. Модель замка - MOTTURA 85. "
+                      },
+                      {
+                        "id": 274,
+                        "name": "Установка карниза",
+                        "slug": "ustanovka-karniza",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 200,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить потолочный карниз",
+                        "orderDescriptionPlaceholder": "Необходимо указать: вид мебели, размер мебели,  модель мебели, а также материал. Пример: установить 2м потолочный карниз, материал пластик. Все необходимые материалы есть в наличии. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 275,
+                        "name": "Установка полок",
+                        "slug": "ustanovka-polok",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 200,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: закрепить полку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: вид мебели, размер мебели, модель мебели, а также материал. Пример: закрепить полку, ширина - 50 см,  высота - 90 см, глубина - 30 см, материал ДСП. Все необходимые материалы есть в наличии. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 276,
+                        "name": "Установка зеркал",
+                        "slug": "ustanovka-zerkal",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 300,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить зеркало",
+                        "orderDescriptionPlaceholder": "Необходимо указать: кол-во зеркал, месторасположение зеркала и метраж. Пример: нужно установить в ванной комнате 2 зеркала. Зеркало на стену 800*800 мм, на потолок 1000*1000 мм. Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 261,
+                        "name": "Ремонт замков",
+                        "slug": "remont-zamkov",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 350,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: ремонт замка",
+                        "orderDescriptionPlaceholder": "Стоит указать: нужна ли замена винтов и ручки. Пример: починить дверной замок, винты не держатся. Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 262,
+                        "name": "Аварийное вскрытие замков",
+                        "slug": "avarijnoe-vskrytie-zamkov",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 450,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 1,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: вскрыть замок",
+                        "orderDescriptionPlaceholder": "Необходимо указать: размеры дверей, тип петель. Пример: вскрыть замок на двери с накладной петлей. Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 1195,
+                        "name": "Установка жалюзи",
+                        "slug": "ustanovka-zhalyuzi",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 0,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: Установить жалюзи",
+                        "orderDescriptionPlaceholder": "Необходимо указать: материал и место крепления, тип жалюзи, количество секций, особые пожелания. Пример: становить две рулонные жалюзи на кронштейнах."
+                      },
+                      {
+                        "id": 1196,
+                        "name": "Сверление отверстий",
+                        "slug": "sverlenie-otverstij",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 300,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: Просверлить отверстия",
+                        "orderDescriptionPlaceholder": "Необходимо указать: размер отверстий и материал, особые пожеланий к исполнителю. Пример: просверлить кирпичную стену и установить кронштейн под телевизор."
+                      },
+                      {
+                        "id": 1197,
+                        "name": "Монтаж потолочной сушилки",
+                        "slug": "montazh-potolochnoj-sushilki",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 300,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить потолочную сушилку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип сушилки, место установки и материал к которому крепить. Пример: повесить потолочную сушилку, материал бетон."
+                      },
+                      {
+                        "id": 1198,
+                        "name": "Другие услуги мужа на час",
+                        "slug": "drugie-uslugi-muzha-na-chas",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 350,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 1,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 1193,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить потолочный карниз",
+                        "orderDescriptionPlaceholder": "Необходимо указать: вид мебели, размер мебели,  модель мебели, а также материал. Пример: установить 2м потолочный карниз, материал пластик. Все необходимые материалы есть в наличии. Необходимы инструменты мастера"
+                      }
+                    ],
+                    "parentCategory": null,
+                    "parentCategoryId": 24,
+                    "sortingPositionIndex": null,
+                    "minutesToCancelAmount": null,
+                    "orderTitlePlaceholder": null,
+                    "orderDescriptionPlaceholder": null
+                  },
+                  {
+                    "id": 237,
+                    "name": "Установка бытовой техники",
+                    "slug": "ustanovka-bytovoj-tehniki",
+                    "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                    "avgPrice": 500,
+                    "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                    "ordersCount": 0,
+                    "subCategories": [
+                      {
+                        "id": 1028,
+                        "name": "Установка электроплиты",
+                        "slug": "ustanovka-elektroplity",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 350,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: подключить электроплиту",
+                        "orderDescriptionPlaceholder": "Стоит указать: модель электроплиты, необходимо ли проводить дополнительно проводку/розетку, дополнительные пожелания. Пример: подключить новую электроплиту Electrolux, также установить розетку для плиты и подключить её."
+                      },
+                      {
+                        "id": 238,
+                        "name": "Установка телевизора",
+                        "slug": "ustanovka-televizora",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 450,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: установить телевизор на стену",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку и модель телевизора, место установки (встраиваемая техника или нет). Пример: необходимо установить встраиваемый телевизор Samsung UE28; на кирпичную стену в спальную комнату. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 239,
+                        "name": "Установка кондиционеров",
+                        "slug": "ustanovka-kondicionera",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 1900,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить кондиционер",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку и модель кондиционера, материал стен, место установки. Пример: необходимо установить кондиционер SHARP XP9LSR; на кирпичную стену в спальную комнату. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 240,
+                        "name": "Установка вытяжки",
+                        "slug": "ustanovka-vytyazhki",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 1000,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: установить вытяжку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: модель и марку вытяжки, условия установки (есть ли доступ к коммуникациям). Пример: установить кухонную вытяжку Krona, необходимо подключить к системе вентиляции. Нужны инструменты мастера"
+                      },
+                      {
+                        "id": 241,
+                        "name": "Установка измельчителя отходов",
+                        "slug": "ustanovka-izmelchitelya-othodov",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 450,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить измельчитель отходов",
+                        "orderDescriptionPlaceholder": "Необходимо указать: тип трубопровода (централизованное/автономное), материал труб (метал, пластик и др.) и модель. Пример: Установить измельчитель отходов; пластиковые трубы, централизованное отопление. IN-SINK-ERATOR MODEL 45. Необходимы инструменты"
+                      },
+                      {
+                        "id": 817,
+                        "name": "Установка другой бытовой техники",
+                        "slug": "ustanovka-drugoj-bytovoj-tehniki",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить кофемашину",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку, модель и готовность коммуникаций к подключениям. Например: установить кофемашину Saeco на кухне, в офисе. Опыт обязателен. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 242,
+                        "name": "Установка посудомоечной машины",
+                        "slug": "ustanovka-posudomoechnoj-mashiny",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 300,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: установить посудомойку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку, модель и готовность коммуникаций к подключениям. Например: подключить посудомоечную машину Bosch, переходников на трубах для подключения нет. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 882,
+                        "name": "Установка газового котла",
+                        "slug": "ustanovka-gazovogo-kotla",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 1100,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить газовый котел ",
+                        "orderDescriptionPlaceholder": "Необходимо указать: вид и модель техники, готовность коммуникаций к подключению, месторасположение. Пример: установить в кухне новый газовый котел VAILLANT turboTEC, двухконтурный, турбированный. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 243,
+                        "name": "Установка варочной панели",
+                        "slug": "ustanovka-varochnoj-paneli",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 300,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить варочную панель",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку и модель техники, готовность коммуникаций к подключению. Пример: установить новую варочную панель Hansa. Встраиваемая плита. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 244,
+                        "name": "Установка духового шкафа",
+                        "slug": "ustanovka-duhovogo-shkafa",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 450,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить духовку",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку, модель, тип духового шкафа и готовность к коммуникациям. Пример: установить электрическую духовку PYRAMIDA F 120, коммуникации подключены. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 1205,
+                        "name": "Установка газовой колонки",
+                        "slug": "ustanovku-gazovoj-kolonki",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 500,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установка газовой колонки",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку, модель и место установки колонки, дополнительные пожелания. Пример: Необходимо демонтировать старую газовую колонку Bosch и на ее место поставить Bosch WR 13-2."
+                      },
+                      {
+                        "id": 245,
+                        "name": "Установка газовой плиты",
+                        "slug": "ustanovka-gazovoj-plity",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: Установить газовую плиту",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку и модель техники, готовность коммуникаций к подключению. Пример: установить новую газовую плиту Hansa. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 246,
+                        "name": "Установка сушильной машины",
+                        "slug": "ustanovka-sushilnoj-mashiny",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 450,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: установить сушильную машину",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку, модель, размеры и готовность коммуникаций к подключению. Например: установить новую сушильную машину Bosch WTW85460, отдельностоящая, размеры 60х85х60 см. Все коммуникации подключены. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 247,
+                        "name": "Установка встраиваемого холодильника",
+                        "slug": "ustanovka-vstraivaemogo-holodilnika",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 500,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: установить встраиваемый холодильник",
+                        "orderDescriptionPlaceholder": "Необходимо указать: марку, модель и готовность коммуникаций к подключениям. Например: установить встраиваемый холодильник Bosch в кухонный гарнитур в существующую нишу. Необходимы инструменты мастера"
+                      },
+                      {
+                        "id": 216,
+                        "name": "Установка стиральной машины",
+                        "slug": "podklyuchenie-stiralnoj-mashiny",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 400,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Например: подключить стиральную машину",
+                        "orderDescriptionPlaceholder": "Необходимо указать: место подключения стиральной машины, марку и модель. Пример: установить стиральную машину в ванной комнате, LG 1092. Все коммуникация подведены. Необходим инструмент мастера"
+                      },
+                      {
+                        "id": 218,
+                        "name": "Установка бойлера",
+                        "slug": "podklyuchenie-bojlera",
+                        "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                        "avgPrice": 700,
+                        "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                        "ordersCount": 0,
+                        "subCategories": [
+
+                        ],
+                        "parentCategory": null,
+                        "parentCategoryId": 237,
+                        "sortingPositionIndex": null,
+                        "minutesToCancelAmount": null,
+                        "orderTitlePlaceholder": "Пример: установить бойлер ",
+                        "orderDescriptionPlaceholder": "Необходимо указать: место подключения бойлера, литраж и модель. Например: установить бойлер в ванной, Electrolux, 80 л. Нужно подсоединить новый бойлер к системе водопровода. Необходим инструмент мастера. "
+                      }
+                    ],
+                    "parentCategory": null,
+                    "parentCategoryId": 24,
+                    "sortingPositionIndex": null,
+                    "minutesToCancelAmount": null,
+                    "orderTitlePlaceholder": null,
+                    "orderDescriptionPlaceholder": null
+                  },
+                  {
+                    "id": 47,
+                    "name": "Другие услуги мастера",
+                    "slug": "drugie-uslugi-mastera",
+                    "logoUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/category-logo/1585469276226-categorymaster.png",
+                    "avgPrice": 400,
+                    "logoSvgUrl": "https://d2kk9ifhh9vk5v.cloudfront.net/placeholder/no-image-available.svg",
+                    "ordersCount": 0,
+                    "subCategories": [
+
+                    ],
+                    "parentCategory": null,
+                    "parentCategoryId": 24,
+                    "sortingPositionIndex": null,
+                    "minutesToCancelAmount": null,
+                    "orderTitlePlaceholder": "Например: Прикрепить крючки в  ванную",
+                    "orderDescriptionPlaceholder": "Необходимо указать: вид работ, место работы и объём работы. Пример: Прикрепить 2 крючка для полотенец в ванную комнату. Просверлить стену, необходимы инструменты мастера "
+                  }
+                ],
+                "parentCategory": null,
+                "parentCategoryId": null,
+                "sortingPositionIndex": 1,
+                "minutesToCancelAmount": null,
+                "orderTitlePlaceholder": null,
+                "orderDescriptionPlaceholder": null
+              }
+            ]'
